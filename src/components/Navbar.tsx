@@ -1,7 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router'
 import { Navbar as HospitalRunNavbar } from '@hospitalrun/components'
-import { useTranslation } from 'react-i18next'
+import {useTranslation} from 'react-i18next'
 
 const Navbar = () => {
   const { t } = useTranslation()
